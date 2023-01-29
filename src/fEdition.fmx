@@ -1,0 +1,1181 @@
+object frmEdition: TfrmEdition
+  Size.Width = 932.000000000000000000
+  Size.Height = 801.000000000000000000
+  Size.PlatformDefault = False
+  object zoneEdition: TLayout
+    Align = MostLeft
+    Size.Width = 200.000000000000000000
+    Size.Height = 801.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object zoneCouches: TScrollBox
+      Align = Client
+      Size.Width = 200.000000000000000000
+      Size.Height = 751.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 200.000000000000000000
+      Viewport.Height = 751.000000000000000000
+    end
+    object zoneToolbar: THorzScrollBox
+      Align = Top
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      ShowScrollBars = False
+      Viewport.Width = 200.000000000000000000
+      Viewport.Height = 50.000000000000000000
+      object btnAddRectangle: TButton
+        Align = Left
+        ModalResult = 5
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 155.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        OnClick = btnAddRectangleClick
+        object CheminAddRectangle: TPath
+          Align = Client
+          Data.Path = {
+            0B00000000000000000080400000C04001000000000080400000984101000000
+            0000A04100009841010000000000A0410000C04001000000000080400000C040
+            000000000000904100008841010000000000C04000008841010000000000C040
+            0000004101000000000090410000004101000000000090410000884103000000
+            0000904100008841}
+          Fill.Color = claBlack
+          Locked = True
+          HitTest = False
+          Margins.Left = 2.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Size.Width = 36.000000000000000000
+          Size.Height = 36.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          WrapMode = Fit
+        end
+      end
+      object btnAddPath: TButton
+        Align = Left
+        ModalResult = 5
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 105.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        OnClick = btnAddPathClick
+        object CheminAddPath: TPath
+          Align = Client
+          Data.Path = {
+            40000000000000000000B04100000041010000000000B0410000004001000000
+            000080410000004001000000000080419A99B940010000006666664100000041
+            010000009A9919410000004101000000000000419A99B9400100000000000041
+            0000004001000000000000400000004001000000000000400000004101000000
+            0000804000000041010000000000804000008041010000000000004000008041
+            01000000000000400000B04101000000000000410000B0410100000000000041
+            0000A04101000000000080410000A04101000000000080410000B04101000000
+            0000B0410000B041010000000000B04100008041010000000000A04100008041
+            010000000000A04100000041010000000000B041000000410000000000003041
+            0000204101000000000050410000204101000000000050410000404101000000
+            0000304100004041010000000000304100002041000000000000804000008040
+            010000000000C04000008040010000000000C0400000C0400100000000008040
+            0000C040010000000000804000008040000000000000C0400000A04101000000
+            000080400000A041010000000000804000009041010000000000C04000009041
+            010000000000C0400000A0410000000000008041000090410100000000000041
+            00009041010000000000004100008041010000000000C0400000804101000000
+            0000C04000000041010000003333E3400000004101000000000010419A992941
+            0100000000001041000060410100000000007041000060410100000000007041
+            9A99294101000000333387410000004101000000000090410000004101000000
+            0000904100008041010000000000804100008041010000000000804100009041
+            000000000000A0410000A04101000000000090410000A0410100000000009041
+            00009041010000000000A04100009041010000000000A0410000A04100000000
+            000090410000C040010000000000904100008040010000000000A04100008040
+            010000000000A0410000C04001000000000090410000C0400300000000009041
+            0000C040}
+          Fill.Color = claBlack
+          Locked = True
+          HitTest = False
+          Margins.Left = 2.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Size.Width = 36.000000000000000000
+          Size.Height = 36.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          WrapMode = Fit
+        end
+      end
+      object btnAddImage: TButton
+        Align = Left
+        ModalResult = 5
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        OnClick = btnAddImageClick
+        object CheminAddImage: TPath
+          Align = Client
+          Data.Path = {
+            1700000000000000000008410000584101000000000030410000844101000000
+            0000684100004041010000000000984100009041010000000000A04000009041
+            000000000000A84100009841010000000000A8410000A040020000000000A841
+            C3F5784002000000CDCCA0410000404002000000000098410000404001000000
+            0000A0400000404002000000BC4E7940000040400200000000004040BC4E7940
+            02000000000040400000A0400100000000004040000098410200000000004040
+            29D6A04102000000BC4E79400000A841020000000000A0400000A84101000000
+            000098410000A8410200000029D6A0410000A841020000000000A84129D6A041
+            020000000000A84100009841030000000000A84100009841}
+          Fill.Color = claBlack
+          Locked = True
+          HitTest = False
+          Margins.Left = 2.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Size.Width = 36.000000000000000000
+          Size.Height = 36.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          WrapMode = Fit
+        end
+      end
+      object btnAddSVG: TButton
+        Align = Left
+        ModalResult = 5
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 55.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 40.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnClick = btnAddSVGClick
+        object CheminAddSVG: TPath
+          Align = Client
+          Data.Path = {
+            5A00000000000000F628A440295C2B410100000085EB0D41295C2B4101000000
+            3D0AC740C3F500410200000052B8A640C3F5004102000000E17A8C4014AEE740
+            02000000E17A8C403D0AC74002000000E17A8C40BDB2A64002000000BDB2A640
+            E17A8C40020000003D0AC740E17A8C400200000014AEE740E17A8C4002000000
+            C3F5004152B8A64002000000C3F500413D0AC74001000000295C2B4185EB0D41
+            01000000295C2B41F628A4400200000000002041B81E8D400200000000002041
+            0000504002000000295C2B415C8F22400200000052B83641C3F5E83F02000000
+            AE474941C3F5E83F02000000D7A354415C8F2240020000000000604100005040
+            0200000000006041B81E8D4002000000D7A35441F628A44001000000D7A35441
+            85EB0D410100000033337F413D0AC7400200000033337F4152B8A64002000000
+            7B148641E17A8C4002000000713D8E41E17A8C4002000000EC519641E17A8C40
+            0200000048E19C4152B8A6400200000048E19C413D0AC7400200000048E19C41
+            14AEE74002000000EC519641C3F5004102000000713D8E41C3F5004101000000
+            7B147241295C2B4101000000C3F59641295C2B410200000052B89C4100002041
+            020000000000A641000020410200000014AEAB41295C2B4102000000A470B141
+            52B8364102000000A470B141AE4749410200000014AEAB41D7A3544102000000
+            0000A641000060410200000052B89C410000604102000000C3F59641D7A35441
+            010000007B147241D7A3544101000000713D8E4133337F4102000000EC519641
+            33337F410200000048E19C417B1486410200000048E19C41713D8E4102000000
+            47E19C4150539641020000005053964147E19C4102000000703D8E4147E19C41
+            020000007B14864148E19C410200000033337F41EC5196410200000033337F41
+            713D8E4101000000D7A354417B14724101000000D7A35441C3F5964102000000
+            0000604152B89C4102000000000060410000A64102000000D7A3544114AEAB41
+            02000000AE474941A470B1410200000052B83641A470B14102000000295C2B41
+            14AEAB4102000000000020410000A641020000000000204152B89C4102000000
+            295C2B41C3F5964101000000295C2B417B14724101000000C3F50041713D8E41
+            02000000C3F50041EC5196410200000014AEE74048E19C41020000003D0AC740
+            48E19C410200000052B8A64048E19C4102000000E17A8C40EC51964102000000
+            E17A8C40713D8E4102000000E17A8C407B1486410200000052B8A64033337F41
+            020000003D0AC74033337F410100000085EB0D41D7A3544101000000F628A440
+            D7A3544102000000B81E8D400000604102000000000050400000604102000000
+            5C8F2240D7A3544102000000C3F5E83FAE47494102000000C3F5E83F52B83641
+            020000005C8F2240295C2B4102000000000050400000204102000000B81E8D40
+            0000204102000000F628A440295C2B4103000000F628A440295C2B41}
+          Fill.Color = claBlack
+          Locked = True
+          HitTest = False
+          Margins.Left = 2.000000000000000000
+          Margins.Top = 2.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Size.Width = 36.000000000000000000
+          Size.Height = 36.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          WrapMode = Fit
+        end
+      end
+    end
+  end
+  object Splitter1: TSplitter
+    Align = MostLeft
+    Cursor = crHSplit
+    MinSize = 20.000000000000000000
+    Position.X = 200.000000000000000000
+    Size.Width = 10.000000000000000000
+    Size.Height = 801.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Splitter2: TSplitter
+    Align = Left
+    Cursor = crHSplit
+    MinSize = 20.000000000000000000
+    Position.X = 410.000000000000000000
+    Size.Width = 10.000000000000000000
+    Size.Height = 801.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object zoneProprietes: TScrollBox
+    Align = Left
+    Position.X = 210.000000000000000000
+    Size.Width = 200.000000000000000000
+    Size.Height = 801.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 184.000000000000000000
+    Viewport.Height = 801.000000000000000000
+    object ProprietesChemin: TLayout
+      Align = MostTop
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 174.000000000000000000
+      Size.Height = 316.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object lblProprietesCheminPathData: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Chemin SVG'
+        TabOrder = 0
+      end
+      object mmoCheminPathData: TMemo
+        Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+        DataDetectorTypes = []
+        OnChange = mmoCheminPathDataChange
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 88.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 164.000000000000000000
+        Viewport.Height = 88.000000000000000000
+      end
+      object lblProprietesCheminColor: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 130.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Couleur du trait'
+        TabOrder = 2
+      end
+      object ccbCheminColor: TComboColorBox
+        Align = Top
+        Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 157.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        OnChange = ccbCheminColorChange
+      end
+      object lblProprietesCheminFillColor: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 189.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Couleur de remplissage'
+        TabOrder = 6
+      end
+      object ccbCheminFillColor: TComboColorBox
+        Align = Top
+        Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 216.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        OnChange = ccbCheminFillColorChange
+      end
+      object lblProprietesCheminWrapMode: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 248.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Wrap mode'
+        TabOrder = 3
+      end
+      object cbCheminWrapMode: TComboBox
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 275.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        OnChange = cbCheminWrapModeChange
+      end
+    end
+    object ProprietesRectangle: TLayout
+      Align = MostTop
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 683.000000000000000000
+      Size.Width = 174.000000000000000000
+      Size.Height = 126.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lblProprietesRectangleColor: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Couleur du contour'
+        TabOrder = 0
+      end
+      object ccbRectangleColor: TComboColorBox
+        Align = Top
+        Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        OnChange = ccbRectangleColorChange
+      end
+      object lblProprietesRectangleFillColor: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Couleur de remplissage'
+        TabOrder = 2
+      end
+      object ccbRectangleFillColor: TComboColorBox
+        Align = Top
+        Color = claWhite
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 91.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 3
+        OnChange = ccbRectangleFillColorChange
+      end
+    end
+    object ProprietesImage: TLayout
+      Align = MostTop
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 331.000000000000000000
+      Size.Width = 174.000000000000000000
+      Size.Height = 166.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object lblProprietesImageBitmap: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Image'
+        TabOrder = 0
+      end
+      object btnImageCharger: TButton
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Choisir'
+        OnClick = btnImageChargerClick
+      end
+      object btnImageEffacer: TButton
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Effacer'
+        OnClick = btnImageEffacerClick
+      end
+      object lblProprietesImageWrapMode: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Wrap mode'
+        TabOrder = 3
+      end
+      object cbImageWrapMode: TComboBox
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 123.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        OnChange = cbImageWrapModeChange
+      end
+    end
+    object ProprietesMarges: TLayout
+      Align = Top
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 819.000000000000000000
+      Size.Width = 174.000000000000000000
+      Size.Height = 153.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object lblProprietesMarges: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 65.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Marges (en % de la taille)'
+        TabOrder = 0
+      end
+      object gplProprietesMarges: TGridPanelLayout
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 92.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 66.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ColumnCollection = <
+          item
+            Value = 33.000000000000000000
+          end
+          item
+            Value = 34.000000000000000000
+          end
+          item
+            Value = 33.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Layout1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = nbMargeHaute
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Layout2
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = nbMargeGauche
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Layout3
+            Row = 1
+          end
+          item
+            Column = 2
+            Control = nbMargeDroite
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Layout4
+            Row = 2
+          end
+          item
+            Column = 1
+            Control = nbMargeBas
+            Row = 2
+          end
+          item
+            Column = 2
+            Control = Layout5
+            Row = 2
+          end>
+        RowCollection = <
+          item
+            SizeStyle = Absolute
+            Value = 22.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 22.000000000000000000
+          end
+          item
+            SizeStyle = Absolute
+            Value = 22.000000000000000000
+          end>
+        object Layout1: TLayout
+          Align = Client
+          Size.Width = 54.119998931884770000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object nbMargeHaute: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 1
+          Cursor = crIBeam
+          Size.Width = 55.759998321533200000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = nbMargeHauteChange
+        end
+        object Layout2: TLayout
+          Align = Client
+          Size.Width = 54.120002746582030000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+        end
+        object nbMargeGauche: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 5
+          Cursor = crIBeam
+          Size.Width = 54.119998931884770000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = nbMargeGaucheChange
+        end
+        object Layout3: TLayout
+          Align = Client
+          Size.Width = 55.759998321533200000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+        end
+        object nbMargeDroite: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 3
+          Cursor = crIBeam
+          Size.Width = 54.120002746582030000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = nbMargeDroiteChange
+        end
+        object Layout4: TLayout
+          Align = Client
+          Size.Width = 54.119998931884770000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+        end
+        object nbMargeBas: TNumberBox
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          TabOrder = 4
+          Cursor = crIBeam
+          Size.Width = 55.759998321533200000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          OnChange = nbMargeBasChange
+        end
+        object Layout5: TLayout
+          Align = Client
+          Size.Width = 54.120002746582030000
+          Size.Height = 22.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+        end
+      end
+      object gplManipulationsCouches: TGridPanelLayout
+        Align = MostTop
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        ColumnCollection = <
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = btnMonterCouche
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = btnDescendreCouche
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = btnSupprimerCouche
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = btnAfficherMasquerCouche
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end>
+        object btnMonterCouche: TButton
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 31.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnClick = btnMonterCoucheClick
+          object CheminMonterCouche: TPath
+            Align = Client
+            Data.Path = {
+              1A00000000000000000098410000A841010000000000A0400000A84102000000
+              BC4E79400000A841020000000000404029D6A041020000000000404000009841
+              01000000000040400000A0400200000001004040BA4E794002000000BD4E7940
+              FFFF3F40020000000100A0400000404001000000000098410000404002000000
+              29D6A04100004040020000000000A841BC4E7940020000000000A8410000A040
+              010000000000A84100009841020000000000A84129D6A0410200000029D6A041
+              0000A84102000000000098410000A84100000000000040410000E04001000000
+              0000E04000004041010000000000204100004041010000000000204100008041
+              0100000000006041000080410100000000006041000040410100000000008841
+              0000404101000000000040410000E04003000000000040410000E040}
+            Fill.Color = claBlack
+            Locked = True
+            HitTest = False
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 27.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            WrapMode = Fit
+          end
+        end
+        object btnDescendreCouche: TButton
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 31.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          OnClick = btnDescendreCoucheClick
+          object cheminDescendreCouche: TPath
+            Align = Client
+            Data.Path = {
+              1A000000000000000000A0400000404001000000000098410000404002000000
+              29D6A04100004040020000000000A841BC4E7940020000000000A8410000A040
+              010000000000A84100009841020000000000A84129D6A0410200000029D6A041
+              0000A84102000000000098410000A841010000000000A0400000A84102000000
+              BC4E79400000A841020000000000404029D6A041020000000000404000009841
+              01000000000040400000A0400200000001004040BA4E794002000000BD4E7940
+              FFFF3F40020000000100A0400000404000000000000040410000884101000000
+              0000884100004041010000000000604100004041010000000000604100000041
+              010000000000204100000041010000000000204100004041010000000000E040
+              00004041010000000000404100008841030000000000404100008841}
+            Fill.Color = claBlack
+            Locked = True
+            HitTest = False
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 27.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            WrapMode = Fit
+          end
+        end
+        object btnSupprimerCouche: TButton
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 31.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          OnClick = btnSupprimerCoucheClick
+          object CheminSupprimerCouche: TPath
+            Align = Client
+            Data.Path = {
+              2300000000000000000010410000404001000000000010410000804001000000
+              000080400000804001000000000080400000C040010000000000A0400000C040
+              010000000000A04000009841020000000000A04029D6A041020000005EA7BC40
+              0000A841020000000000E0400000A84101000000000088410000A84102000000
+              29D690410000A841020000000000984129D6A041020000000000984100009841
+              01000000000098410000C040010000000000A0410000C040010000000000A041
+              0000804001000000000070410000804001000000000070410000404001000000
+              0000104100004040000000000000E0400000C04001000000000088410000C040
+              010000000000884100009841010000000000E04000009841010000000000E040
+              0000C04000000000000010410000004101000000000010410000884101000000
+              0000304100008841010000000000304100000041010000000000104100000041
+              0000000000005041000000410100000000005041000088410100000000007041
+              0000884101000000000070410000004101000000000050410000004103000000
+              0000504100000041}
+            Fill.Color = claBlack
+            Locked = True
+            HitTest = False
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 27.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            WrapMode = Fit
+          end
+        end
+        object btnAfficherMasquerCouche: TButton
+          Align = Client
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 31.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Visible = False
+          object CheminAfficherCouche: TPath
+            Align = Client
+            Data.Path = {
+              2800000000000000000040410000104102000000867D25410000104102000000
+              00001041867D254102000000000010410000404102000000000010417A825A41
+              02000000867D254100007041020000000000404100007041020000007A825A41
+              0000704102000000000070417A825A4102000000000070410000404102000000
+              00007041867D2541020000007A825A4100001041020000000000404100001041
+              0000000000004041000088410200000035D1134100008841020000000000E040
+              CB2E6C41020000000000E04000004041020000000100E04034D1134102000000
+              36D11341FFFFDF4002000000010040410000E04002000000CB2E6C410000E040
+              020000000000884136D113410200000000008841000040410200000000008841
+              CB2E6C4102000000CB2E6C410000884102000000000040410000884100000000
+              0000404100009040020000000000E040000090400200000052B82E401F85F340
+              020000000000803F000040410200000052B82E40B81E8341020000000000E040
+              00009C41020000000000404100009C41020000000000884100009C4102000000
+              F628AA41B81E8341020000000000B8410000404102000000F628AA411F85F340
+              0200000000008841000090400200000000004041000090400300000000004041
+              00009040}
+            Fill.Color = claBlack
+            Locked = True
+            HitTest = False
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 27.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            WrapMode = Fit
+          end
+          object CheminMasquerCouche: TPath
+            Align = Client
+            Data.Path = {
+              4600000000000000AE473D410000104101000000000070415C8F424102000000
+              000070418FC241410200000000007041CDCC4041020000000000704100004041
+              0200000000007041867D2541020000007A825A41000010410200000000004041
+              00001041020000003D0A3F410000104102000000713D3E410000104102000000
+              AE473D410000104100000000C3F5F040CDCC1C4101000000AE4711419A993541
+              02000000E17A1041C3F538410200000000001041EC513C410200000000001041
+              0000404102000000000010417A825A4102000000867D25410000704102000000
+              0000404100007041020000001F85434100007041020000003D0A47411F856F41
+              0200000066664A4152B86E4101000000333363418FC2834102000000E17A5841
+              6666864102000000D7A34C410000884102000000000040410000884102000000
+              35D1134100008841020000000000E040CB2E6C41020000000000E04000004041
+              020000000000E040295C3341020000006666E6401F85274102000000C3F5F040
+              CDCC1C410000000000000040D7A3884001000000C3F588409A99D14001000000
+              295C97400000E04002000000B81E4540CDCC0441020000000AD7E33F00002041
+              020000000000803F000040410200000052B82E40B81E8341020000000000E040
+              00009C41020000000000404100009C4102000000CDCC584100009C4102000000
+              E17A70419A999941020000003D0A8341AE47954101000000E17A8641D7A39841
+              010000000AD79D410000B041010000000000A8410AD7A54101000000AE475140
+              0000404000000000000040410000E04002000000CB2E6C410000E04002000000
+              0000884135D113410200000000008841000040410200000000008841713D4A41
+              02000000C3F58641F628544102000000B81E8541B81E5D41010000005C8F9C41
+              00008641020000005C8FA8410000784102000000F628B2418FC25D4102000000
+              0000B8410000404102000000F628AA411F85F340020000000000884100009040
+              020000000000404100009040020000009A9929410000904002000000F6281441
+              0000984002000000000000416666A6400100000052B822413333EB4002000000
+              0AD72B41F628E440020000009A9935410000E04002000000000040410000E040
+              03000000000040410000E040}
+            Fill.Color = claBlack
+            Locked = True
+            HitTest = False
+            Margins.Left = 2.000000000000000000
+            Margins.Top = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 27.000000000000000000
+            Size.Height = 36.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            WrapMode = Fit
+          end
+        end
+      end
+    end
+    object ProprietesSVG: TLayout
+      Align = MostTop
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 507.000000000000000000
+      Size.Width = 174.000000000000000000
+      Size.Height = 166.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object lblProprietesSVGLibelle: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Fichier SVG'
+        TabOrder = 0
+      end
+      object btnSVGCharger: TButton
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 32.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Choisir'
+        OnClick = btnSVGChargerClick
+      end
+      object btnEVGEffacer: TButton
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        Text = 'Effacer'
+        OnClick = btnSVGEffacerClick
+      end
+      object lblProprietesSVGWrapMode: TLabel
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 96.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Wrap mode'
+        TabOrder = 3
+      end
+      object cbSVGWrapMode: TComboBox
+        Align = Top
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 5.000000000000000000
+        Position.X = 5.000000000000000000
+        Position.Y = 123.000000000000000000
+        Size.Width = 164.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        OnChange = cbSVGWrapModeChange
+      end
+    end
+  end
+  object OpenDialogImage: TOpenDialog
+    Filter = 
+      'Images JPEG|*.jpg;*.jpeg|Images PNG|*.png|Toutes les images|*.jp' +
+      'g;*.jpeg;*.png'
+    FilterIndex = 3
+    Options = [ofPathMustExist, ofFileMustExist, ofEnableSizing]
+    Title = 'Choisir une image'
+    Left = 456
+    Top = 240
+  end
+  object zonePreview: TLayout
+    Align = Client
+    Size.Width = 512.000000000000000000
+    Size.Height = 801.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object zonePreviewImages: TScrollBox
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 502.000000000000000000
+      Size.Height = 668.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Viewport.Width = 502.000000000000000000
+      Viewport.Height = 668.000000000000000000
+      object zonePreviewImagesListe: TFlowLayout
+        Align = Top
+        Size.Width = 502.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        OnResized = zonePreviewImagesListeResized
+      end
+    end
+    object zonePreviewTailles: TScrollBox
+      Align = Top
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 502.000000000000000000
+      Size.Height = 113.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Viewport.Width = 502.000000000000000000
+      Viewport.Height = 113.000000000000000000
+      object zonePreviewTaillesListe: TFlowLayout
+        Align = Top
+        Size.Width = 502.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        OnResized = zonePreviewTaillesListeResized
+        object btnPreviewRefresh: TButton
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 5.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 0
+          Text = 'Rafraichir'
+          OnClick = btnPreviewRefreshClick
+        end
+        object btnPreviewToutesTailles: TButton
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 95.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 1
+          Text = 'Toutes'
+          OnClick = btnPreviewToutesTaillesClick
+        end
+        object btnPreviewAucuneTaille: TButton
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Position.X = 185.000000000000000000
+          Position.Y = 5.000000000000000000
+          TabOrder = 2
+          Text = 'Aucune'
+          OnClick = btnPreviewAucuneTailleClick
+        end
+        object FlowLayoutBreak1: TFlowLayoutBreak
+          ChangesRules = False
+          Justify = Left
+          JustifyLastLine = Left
+          FlowDirection = LeftToRight
+        end
+      end
+    end
+  end
+  object OpenDialogSVG: TOpenDialog
+    Filter = 'Fichier SVG|*.svg'
+    Options = [ofPathMustExist, ofFileMustExist, ofEnableSizing]
+    Title = 'Choisir une image vectorielle (SVG)'
+    Left = 456
+    Top = 384
+  end
+end

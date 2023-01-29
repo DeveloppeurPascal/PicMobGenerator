@@ -1,0 +1,160 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Caption = 'Pic Mob Generator'
+  ClientHeight = 600
+  ClientWidth = 800
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnCloseQuery = FormCloseQuery
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object MainMenu1: TMainMenu
+    Left = 480
+    Top = 176
+    object mnuMacOS: TMenuItem
+      Text = 'mnuMacOS'
+      object mnuAProposMac: TMenuItem
+        Locked = True
+        Text = 'A propos'
+        OnClick = mnuAProposClick
+      end
+      object mnuPreferences: TMenuItem
+        Locked = True
+        Text = 'Pr'#233'f'#233'rences'
+        OnClick = mnuOptionsClick
+      end
+    end
+    object mnuFichier: TMenuItem
+      Text = '&Fichier'
+      object mnuNouveau: TMenuItem
+        Locked = True
+        Text = '&Nouveau'
+        OnClick = mnuNouveauClick
+      end
+      object mnuOuvrir: TMenuItem
+        Locked = True
+        Text = 'Ou&vrir'
+        OnClick = mnuOuvrirClick
+      end
+      object mnuEnregistrer: TMenuItem
+        Locked = True
+        Text = 'Enregi&strer'
+        OnClick = mnuEnregistrerClick
+      end
+      object mnuFermerProjet: TMenuItem
+        Locked = True
+        Text = 'Fer&mer'
+        OnClick = mnuFermerProjetClick
+      end
+      object mnuQuitter: TMenuItem
+        Locked = True
+        Text = '&Quitter'
+        OnClick = mnuQuitterClick
+      end
+    end
+    object mnuCalques: TMenuItem
+      Text = 'Calques'
+      object mnuCalquesNouveauChemin: TMenuItem
+        Locked = True
+        Text = 'Nouveau chemin'
+        OnClick = mnuCalquesNouveauCheminClick
+      end
+      object mnuCalquesNouveauRectangle: TMenuItem
+        Locked = True
+        Text = 'Nouveau rectangle'
+        OnClick = mnuCalquesNouveauRectangleClick
+      end
+      object mnuCalquesNouveauSVG: TMenuItem
+        Locked = True
+        Text = 'Nouveau SVG'
+        OnClick = mnuCalquesNouveauSVGClick
+      end
+      object mnuCalquesNouvelleImage: TMenuItem
+        Locked = True
+        Text = 'Nouvelle image'
+        OnClick = mnuCalquesNouvelleImageClick
+      end
+    end
+    object mnuProjet: TMenuItem
+      Text = '&Projet'
+      object mnuExportAll: TMenuItem
+        Locked = True
+        Text = 'E&xporter tous'
+        OnClick = mnuExportAllClick
+      end
+      object mnuExportICO: TMenuItem
+        Locked = True
+        Text = 'Export ICO (Windows)'
+        Visible = False
+        OnClick = mnuExportICOClick
+      end
+      object mnuExportICNS: TMenuItem
+        Locked = True
+        Text = 'Export ICNS (Mac)'
+        Visible = False
+        OnClick = mnuExportICNSClick
+      end
+      object mnuExportPNG: TMenuItem
+        Locked = True
+        Text = 'Export PNG'
+        Visible = False
+        OnClick = mnuExportPNGClick
+      end
+    end
+    object mnuOutils: TMenuItem
+      Text = 'O&utils'
+      object mnuOptions: TMenuItem
+        Locked = True
+        Text = '&Options'
+        OnClick = mnuOptionsClick
+      end
+    end
+    object mnuAide: TMenuItem
+      Text = '&Aide'
+      object mnuAPropos: TMenuItem
+        Locked = True
+        Text = 'A p&ropos'
+        OnClick = mnuAProposClick
+      end
+    end
+  end
+  object AProposDialog1: TOlfAboutDialog
+    Titre = 'Pic Mob Generator'
+    VersionDate = '20221013'
+    MultiResBitmap = <
+      item
+      end>
+    Images = DMImages.lstIconesPicMobGenerator
+    ImageIndex = 0
+    URL = 'https://developpeur-pascal.fr/pic-mob-generator.html'
+    onURLClick = AProposDialog1URLClick
+    Langue = FR
+    Left = 160
+    Top = 136
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = 'pimg'
+    Filter = 'Projets|*.pimg'
+    Options = [ofHideReadOnly, ofPathMustExist, ofFileMustExist, ofEnableSizing]
+    Title = 'Ouvrir un projet'
+    Left = 480
+    Top = 256
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = 'pimg'
+    Filter = 'Projet|*.pimg'
+    Options = [ofOverwritePrompt, ofHideReadOnly, ofEnableSizing]
+    Title = 'Enregistrer le projet sous'
+    Left = 480
+    Top = 328
+  end
+  object OpenDialogExportImages: TOpenDialog
+    Options = [ofHideReadOnly, ofPathMustExist, ofNoReadOnlyReturn, ofEnableSizing]
+    Title = 'Choisir le dossier de destination'
+    Left = 600
+    Top = 232
+  end
+end
