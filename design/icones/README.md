@@ -1,0 +1,3 @@
+This folder contains the icon for [Pic Mob Generator](https://picmobgenerator.olfsoftware.fr) program and of course it has been created in Pic Mob Generator...
+
+Please don't use those files anywhere else.
