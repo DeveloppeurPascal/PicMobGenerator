@@ -1,3 +1,6 @@
 [submodule "lib-externes/BoiteDeDialogueAPropos"]
 	path = lib-externes/BoiteDeDialogueAPropos
 	url = http://192.168.1.14:13000/OlfSoftware/BoiteDeDialogueAPropos.git
+[submodule "lib-externes/librairies"]
+	path = lib-externes/librairies
+	url = https://github.com/DeveloppeurPascal/librairies.git
