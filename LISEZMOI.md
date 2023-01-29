@@ -1,29 +1,37 @@
-# Delphi-Projects-Template
+# Pic Mob Generator
 
 [This page in english.](README.md)
 
-Un modèle de dépôt git pour mes projets Delphi (ou autres).
+[Pic Mob Generator](https://picmobgenerator.olfsoftware.fr) est un générateur d'icônes pour développeurs de logiciels et applications mobiles. Il utilise un simple système de calques pour dessiner les icones puis les exporte en fichiers de formats ICNS, ICO, PNG ou JPEG pour iOS, Android, Linux, macOS et Windows.
 
-Ce template est distribué sous licence MIT. La licence AGPL est pour les projets que je crée à partir de ce template de dépôt de code. Utilisez la licence que vous voulez si vous utilisez ce template.
+Si vous voulez en savoir plus sur ce programme et obtenir des explications sur ses codes sources  rendez-vous sur [le blog Developpeur Pascal](https://developpeur-pascal.fr/pic-mob-generator.html) et contactez l'auteur si vous avez des questions.
+
+La plupart du temps de développement de ce logiciel a été fait [en direct sur Twitch](https://www.twitch.tv/patrickpremartin). Les rediffusions sont disponibles sur [Serial Streameur](https://serialstreameur.fr/pic-mob-generator.html).
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Installation
 
-Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis [son dépôt GitHub](https://github.com/DeveloppeurPascal/PicMobGenerator).
 
 **Attention :** si le projet utilise des dépendances sous forme de sous modules ils seront absents du fichier ZIP. Vous devrez les télécharger à la main.
+
+Si vous voulez juste utiliser ce programme pour vous ou créer des icones pour d'autres développeurs vous pouvez obtenir la version compilée directement auprès de [Olf Software](https://picmobgenerator.olfsoftware.fr).
+* Pour Mac rendez-vous sur [Gumroad](https://boutique.olfsoftware.fr/l/picmobgenerator) ou [itch.io](https://gamolf.itch.io/pic-mob-generator).
+* Pour Windows rendez-vous sur [Gumroad](https://boutique.olfsoftware.fr/l/picmobgenerator), [itch.io](https://gamolf.itch.io/pic-mob-generator) ou [Microsoft Store](https://www.microsoft.com/store/apps/9NV1HKNQNXCD).
 
 ## Dépendances
 
 Ce dépôt de code dépend des dépôts suivants :
 
-* project 1
-* project 2
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) doit être installé dans le sous-dossier "lib-externes\librairies"
+* [BoiteDeDialogueAPropos](https://developpeur-pascal.fr/boite-de-dialogue-a-propos-de.html) doit être installé dans le sous-dossier  "lib-externes\BoiteDeDialogueAPropos"
+
+Vous aurez également besoin de [RiverSoftAVG SVG Component Library](https://www.riversoftavg.com/svg.htm) pour compiler le programme. C'est utilisé pour les calques SVG.
 
 ## Comment demander une nouvelle fonctionnalité, signaler un bogue ou une faille de sécurité ?
 
-Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/XXXXXXXXXX) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+Si vous voulez une réponse du propriétaire de ce dépôt la meilleure façon de procéder pour demander une nouvelle fonctionnalité ou signaler une anomalie est d'aller sur [le dépôt de code sur GitHub](https://github.com/DeveloppeurPascal/PicMobGenerator) et [d'ouvrir un ticket](https://github.com/DeveloppeurPascal/PicMobGenerator/issues).
 
 Si vous avez trouvé une faille de sécurité n'en parlez pas en public avant qu'un correctif n'ait été déployé ou soit disponible. [Contactez l'auteur du dépôt en privé](https://developpeur-pascal.fr/nous-contacter.php) pour expliquer votre trouvaille.
 
