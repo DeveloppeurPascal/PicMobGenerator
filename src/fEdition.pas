@@ -557,7 +557,18 @@ begin
     // Manipulation des blocs dans la liste des couches
     Rect_Y := Rectangle.Position.Y;
     Rect_Height := Rectangle.Height;
-    Rectangle.free;
+    // pour MacOS/iOS : la suppression du rectangle génère un plantage
+    // (accès zone mzmoire protégée ou un truc comme ça)
+    // donc on contourne le problème en masquant la zone et en repoussant sa
+    // suppression au ProcessMessage suivant (une fois sortis de cet événement)
+    Rectangle.Visible := false;
+    tthread.ForceQueue(nil,
+      procedure
+      begin
+        Rectangle.free;
+      end);
+    // Fin bidouille Mac/iOS
+    // "Rectangle.free;" suffit sur les autres plateformes
     for i := 0 to zoneCouches.Content.ChildrenCount - 1 do
       if (zoneCouches.Content.Children[i] is TRectangle) and
         ((zoneCouches.Content.Children[i] as TRectangle).Position.Y > Rect_Y)
@@ -846,7 +857,7 @@ begin
 end;
 
 function TfrmEdition.getNewChemin(ACouche: TPIMGCoucheChemin;
-  AParent: TFMXObject; ImageFinale: boolean; largeur: integer; hauteur: integer)
+AParent: TFMXObject; ImageFinale: boolean; largeur: integer; hauteur: integer)
   : FMX.Objects.TPath;
 begin
   result := FMX.Objects.TPath.Create(AParent);
@@ -871,7 +882,7 @@ begin
 end;
 
 function TfrmEdition.getNewImage(ACouche: TPIMGCoucheImage; AParent: TFMXObject;
-  ImageFinale: boolean; largeur: integer; hauteur: integer): timage;
+ImageFinale: boolean; largeur: integer; hauteur: integer): timage;
 begin
   result := timage.Create(AParent);
   result.Parent := AParent;
@@ -893,7 +904,7 @@ begin
 end;
 
 function TfrmEdition.getNewRectangle(ACouche: TPIMGCoucheRectangle;
-  AParent: TFMXObject; ImageFinale: boolean; largeur: integer; hauteur: integer)
+AParent: TFMXObject; ImageFinale: boolean; largeur: integer; hauteur: integer)
   : TRectangle;
 begin
   result := TRectangle.Create(AParent);
@@ -917,7 +928,7 @@ begin
 end;
 
 function TfrmEdition.getNewSVG(ACouche: TPIMGCoucheSVG; AParent: TFMXObject;
-  ImageFinale: boolean; largeur, hauteur: integer): TRSSVGImage;
+ImageFinale: boolean; largeur, hauteur: integer): TRSSVGImage;
 var
   doc: TMyRSFmxSVGDocument;
 begin
