@@ -10,8 +10,8 @@ uses
   fEdition in 'fEdition.pas' {frmEdition: TFrame},
   u_urlOpen in '..\lib-externes\librairies\u_urlOpen.pas',
   uDMImages in 'uDMImages.pas' {DMImages: TDataModule},
-  Olf.FMX.AboutDialogForm in '..\lib-externes\BoiteDeDialogueAPropos\sources\Olf.FMX.AboutDialogForm.pas' {OlfAboutDialogForm},
-  Olf.FMX.AboutDialog in '..\lib-externes\BoiteDeDialogueAPropos\sources\Olf.FMX.AboutDialog.pas';
+  Olf.FMX.AboutDialogForm in '..\lib-externes\AboutDialog-Delphi-Component\sources\Olf.FMX.AboutDialogForm.pas' {OlfAboutDialogForm},
+  Olf.FMX.AboutDialog in '..\lib-externes\AboutDialog-Delphi-Component\sources\Olf.FMX.AboutDialog.pas';
 
 {$R *.res}
 

@@ -25,7 +25,7 @@ Si vous voulez juste utiliser ce programme pour vous ou créer des icones pour d
 Ce dépôt de code dépend des dépôts suivants :
 
 * [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) doit être installé dans le sous-dossier "lib-externes\librairies"
-* [BoiteDeDialogueAPropos](https://developpeur-pascal.fr/boite-de-dialogue-a-propos-de.html) doit être installé dans le sous-dossier  "lib-externes\BoiteDeDialogueAPropos"
+* [DeveloppeurPascal/AboutDialog-Delphi-Component](https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component) doit être installé dans le sous-dossier  "lib-externes\AboutDialog-Delphi-Component"
 
 Vous aurez également besoin de [RiverSoftAVG SVG Component Library](https://www.riversoftavg.com/svg.htm) pour compiler le programme. C'est utilisé pour les calques SVG.
 

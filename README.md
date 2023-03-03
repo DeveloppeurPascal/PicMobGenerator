@@ -26,7 +26,7 @@ If you only want to use this program for you or to generate icons for other deve
 This project depends on :
 
 * [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) must be installed in subfolder "lib-externes\librairies"
-* [BoiteDeDialogueAPropos](https://developpeur-pascal.fr/boite-de-dialogue-a-propos-de.html) must be installed in subfolder "lib-externes\BoiteDeDialogueAPropos"
+* [DeveloppeurPascal/AboutDialog-Delphi-Component](https://github.com/DeveloppeurPascal/AboutDialog-Delphi-Component) must be installed in subfolder "lib-externes\AboutDialog-Delphi-Component"
 
 You also need the [RiverSoftAVG SVG Component Library](https://www.riversoftavg.com/svg.htm) to compile the program. It's used for SVG layers.
 
