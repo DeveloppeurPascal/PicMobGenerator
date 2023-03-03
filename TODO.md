@@ -1,10 +1,12 @@
 # TODO List
 
+* traduction FR/EN/?? de l'interface utilisateur
+
 * gérer une liste des derniers fichiers ouverts, dans un sous menu "rouvrir"
 
 * traiter les TODO restants
 
-* ajouter une propriété "visible" O/N sur les couches
+* ajouter une propriété "visible" O/N sur les couches + dépendance de chaque calque selon la catégorie utilisée pour la génération de l'image
 * gérer le bouton "afficher/masquer" la couche active
 
 * mettre une table des données globales saisies dans le programme pour la proposer en import aux utilisateurs du logiciel s'il y a des écarts ou nouveautés au niveau global
@@ -25,7 +27,6 @@
 * implémenter un mode sombre
 * mise en place de la saisie et du contrôle de la licence utilisateur
 
-* afficher le nom du projet ouvert (sous forme d'onglet si on en gère plusieurs, sinon dans la barre de titre de la fenêtre principale)
 * ajouter un événement sur le "hasChanged" du projet afin d'être informé dans l'écran pour éventuellement le signaler visuellement quelque part 
 
 * ajouter les racourcis sur les options de menu : Ctrl+?? ou OPT+??? (Mac)
@@ -61,6 +62,7 @@
 * sur les chemins de SVG, gérer le type de trait
 * sur les chemins de SVG, gérer l'épaisseur du trait
 
+* ajouter infobulle (hint) sur bouton/icones des barres d'outil
 
 * ajouter une option de changement de couleur du fond de prévisualitation pour vérifier ce que donnent les transparences
 
@@ -77,11 +79,9 @@
 
 * ajouter un module de recherche de mise à jour du logiciel et de suggestion d'installation (nouvelle option de menu ou recherche automatique)
 
-* faire vidéo de démo du logiciel
-* mise en vente du logiciel sur Microsoft Store
 * mise en vente du logiciel sur Mac App Store
 
-* pemettre le clonage d'une couche pour en créer une autre
+* permettre le clonage d'une couche pour en créer une autre
 
 * permettre de récupérer une couleur d'un choix (trait ou remplissage) pour l'appliquer ailleurs
 
@@ -110,22 +110,17 @@
 
 * repasser la lecture et le traitement des SVG dans le TImage standard (cf FAQ RiverSoft : il faut juste ajouter l'unité RSImaging.svgimage au projet pour importer les éléments nécessaires)
 
-* bogue : le bouton "effacer" ne fonctionne pas sur les calques SVG
-
 * lors de la génération des icones (options(s) d'export), mettre un écran d'attente pour montrer qu'il se passe quelque chose
-
-
-* sur écran d'accueil, proposer l'ouverture d'un projet existant ou la création d'un nouveau projet (ça a perturbé l'équipe de validation chez Apple, c'est effectivement un point d'UX intéressant à améliorer)
 
 * ajouter un catalogue d'exemples d'icônes dans le logiciel (à piocher sur un site distant, donc faire les exemples et faire le site proposant les exemples et leur téléchargement)
 
 * pouvoir saisir une valeur de couleur en hexa dans les blocs de sélection (ou en changer)
 
-* bogue : plantages dans la manipulation des calques après suppression de l'un d'entre eux (rectangle) sur Mac
 
 * ajouter une opacité au niveau des couches d'images et de formes
 
 
 * voir https://quality.embarcadero.com/browse/RSP-21335 et https://developer.android.com/guide/practices/ui_guidelines/icon_design_adaptive
 
-* pour se greffer sur l'expert d'Adriano Santos, proposer une DLL permettant la génération d'une image depuis un fichier PIMG (dimensions, format (JPG/PNG/ICO/ICNS) et chemin de stockage à spécifier)
+* pour se greffer sur l'expert d'Adriano Santos, proposer une DLL permettant la génération d'une image depuis un fichier PIMG (dimensions, format (JPG/PNG/ICO/ICNS) et chemin de stockage à spécifier) : https://github.com/adrianosantostreina/MobileExperts
+
