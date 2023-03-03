@@ -482,7 +482,9 @@ begin
       finally
         ms.Free;
       end;
-    end;
+    end
+    else
+      FBitmap.Clear(talphacolors.Black);
     if (version >= 3) then
       inherited;
     if (version >= 4) then
@@ -516,7 +518,12 @@ begin
   // Enregistrement du bitmap
   ms := tmemorystream.Create;
   try
-    FBitmap.SaveToStream(ms);
+    try
+      FBitmap.SaveToStream(ms);
+    except
+      // plante sur Mac quand Bitmap vide
+      // passe sur Windows quand Bitmap vide aussi
+    end;
     TailleBitmap := ms.Size;
     ms.Position := 0;
     s.Write(TailleBitmap, sizeof(TailleBitmap));
