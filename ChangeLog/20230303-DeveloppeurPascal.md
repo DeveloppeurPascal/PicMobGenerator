@@ -11,3 +11,4 @@
 * fixed : sur Mac l'affichage d'un Bitmap vide et non initialisé plantait
 * added : boutons "Ouvrir un projet" / "Nouveau projet" sur la fenêtre de démarrage si aucun projet n'est ouvert (demande de l'équipe de validation d'Apple)
 * added : fond pour les écrans d'édition et d'options (qui étaient transparents et pouvaient se chevaucher)
+* added : a project version for Microsoft Store deployment
