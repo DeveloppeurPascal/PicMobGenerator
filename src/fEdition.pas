@@ -421,6 +421,9 @@ begin
         ((Rectangle.components[i] as TMyRSFmxSVGDocument).CoucheSVG = couche)
       then
         (Rectangle.components[i] as TMyRSFmxSVGDocument).Lines.Clear;
+    for i := 0 to Rectangle.componentCount - 1 do
+      if (Rectangle.components[i] is TRSSVGImage) then
+        (Rectangle.components[i] as TRSSVGImage).Visible := false;
   end;
 end;
 
@@ -606,16 +609,24 @@ begin
       // TODO : Enregistrer le dernier chemin utilisé
       try
         (couche as TPIMGCoucheSVG).SVG := tfile.ReadAllText(NomFichier);
-        ProjetOuvert.hasChanged := true;
-        for i := 0 to Rectangle.componentCount - 1 do
-          if (Rectangle.components[i] is TMyRSFmxSVGDocument) and
-            ((Rectangle.components[i] as TMyRSFmxSVGDocument).CoucheSVG = couche)
-          then
-          begin
-            (Rectangle.components[i] as TMyRSFmxSVGDocument).Lines.Clear;
-            (Rectangle.components[i] as TMyRSFmxSVGDocument)
-              .Lines.Add((couche as TPIMGCoucheSVG).SVG);
-          end;
+        if (couche as TPIMGCoucheSVG).SVG.IsEmpty then
+          btnSVGEffacerClick(Sender)
+        else
+        begin
+          ProjetOuvert.hasChanged := true;
+          for i := 0 to Rectangle.componentCount - 1 do
+            if (Rectangle.components[i] is TMyRSFmxSVGDocument) and
+              ((Rectangle.components[i] as TMyRSFmxSVGDocument)
+              .CoucheSVG = couche) then
+            begin
+              (Rectangle.components[i] as TMyRSFmxSVGDocument).Lines.Clear;
+              (Rectangle.components[i] as TMyRSFmxSVGDocument)
+                .Lines.Add((couche as TPIMGCoucheSVG).SVG);
+            end;
+          for i := 0 to Rectangle.componentCount - 1 do
+            if (Rectangle.components[i] is TRSSVGImage) then
+              (Rectangle.components[i] as TRSSVGImage).Visible := true;
+        end;
       except
         btnSVGEffacerClick(Sender);
       end;
