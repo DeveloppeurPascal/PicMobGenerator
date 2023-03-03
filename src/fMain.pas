@@ -179,6 +179,8 @@ begin
           ProjetOuvert.SaveToFile(NomFichier);
         end;
         // TODO : enregistrer le chemin d'enregistrement dans les paramètres
+        caption := tpath.GetFileNameWithoutExtension(NomFichier) +
+          ' - Pic Mob Generator';
       end;
     end;
   end
@@ -583,6 +585,7 @@ begin
   mnuCalques.Enabled := false;
   mnuEnregistrer.Enabled := false;
   mnuFermerProjet.Enabled := false;
+  caption := 'Pic Mob Generator';
 end;
 
 procedure TfrmMain.mnuNouveauClick(Sender: TObject);
@@ -595,6 +598,7 @@ begin
   mnuCalques.Enabled := true;
   mnuEnregistrer.Enabled := true;
   mnuFermerProjet.Enabled := true;
+  caption := 'Untitled - Pic Mob Generator';
 end;
 
 procedure TfrmMain.mnuOptionsClick(Sender: TObject);
@@ -625,6 +629,8 @@ begin
       mnuCalques.Enabled := true;
       mnuEnregistrer.Enabled := true;
       mnuFermerProjet.Enabled := true;
+      caption := tpath.GetFileNameWithoutExtension(NomFichier) +
+        ' - Pic Mob Generator';
     end;
   end;
 end;
