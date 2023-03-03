@@ -3,6 +3,14 @@ object frmOutilsOptions: TfrmOutilsOptions
   Size.Height = 415.000000000000000000
   Size.PlatformDefault = False
   OnClick = FrameClick
+  object rBackground: TRectangle
+    Align = Contents
+    Fill.Color = claGhostwhite
+    Size.Width = 659.000000000000000000
+    Size.Height = 415.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
   object ZoneFooter: TLayout
     Align = Bottom
     Padding.Left = 5.000000000000000000
@@ -60,7 +68,7 @@ object frmOutilsOptions: TfrmOutilsOptions
       Size.Height = 340.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 38
-      RowCount = 24
+      RowCount = 36
       Viewport.Width = 639.000000000000000000
       Viewport.Height = 315.000000000000000000
     end

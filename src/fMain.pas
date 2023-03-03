@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes,
   System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Menus,
-  uProjetPIMG, FMX.Layouts, uDMImages, Olf.FMX.AboutDialog;
+  uProjetPIMG, FMX.Layouts, uDMImages, Olf.FMX.AboutDialog,
+  FMX.Controls.Presentation, FMX.StdCtrls;
 
 type
   TfrmMain = class(TForm)
@@ -38,6 +39,9 @@ type
     mnuCalquesNouveauRectangle: TMenuItem;
     mnuCalquesNouveauSVG: TMenuItem;
     mnuCalquesNouvelleImage: TMenuItem;
+    MenuHome: TGridPanelLayout;
+    btnProjectNew: TButton;
+    btnProjectOpen: TButton;
     procedure FormCreate(Sender: TObject);
     procedure mnuAProposClick(Sender: TObject);
     procedure mnuQuitterClick(Sender: TObject);

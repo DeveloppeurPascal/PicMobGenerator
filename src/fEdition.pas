@@ -85,6 +85,7 @@ type
     zoneToolbar: THorzScrollBox;
     btnAddSVG: TButton;
     CheminAddSVG: TPath;
+    rBackground: TRectangle;
     procedure btnAddPathClick(Sender: TObject);
     procedure btnAddImageClick(Sender: TObject);
     procedure btnAddRectangleClick(Sender: TObject);

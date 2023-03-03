@@ -164,4 +164,59 @@ object frmMain: TfrmMain
     Left = 600
     Top = 232
   end
+  object MenuHome: TGridPanelLayout
+    Align = Center
+    Size.Width = 360.000000000000000000
+    Size.Height = 174.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    ColumnCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = btnProjectNew
+        Row = 0
+      end
+      item
+        Column = 0
+        Control = btnProjectOpen
+        Row = 1
+      end>
+    RowCollection = <
+      item
+        Value = 50.000000000000000000
+      end
+      item
+        Value = 50.000000000000000000
+      end>
+    object btnProjectNew: TButton
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 340.000000000000000000
+      Size.Height = 67.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Nouveau'
+      OnClick = mnuNouveauClick
+    end
+    object btnProjectOpen: TButton
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Size.Width = 340.000000000000000000
+      Size.Height = 67.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Ouvrir'
+      OnClick = mnuOuvrirClick
+    end
+  end
 end

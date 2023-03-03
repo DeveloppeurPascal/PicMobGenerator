@@ -10,7 +10,7 @@ uses
   Data.Bind.Controls, Data.Bind.EngExt, FMX.Bind.DBEngExt, FMX.Bind.Grid,
   System.Bindings.Outputs, FMX.Bind.Editors, Data.Bind.Components,
   Data.Bind.Grid, Data.Bind.DBScope, FMX.Bind.Navigator, FMX.ScrollBox,
-  FMX.Grid;
+  FMX.Grid, FMX.Objects;
 
 type
   TfrmOutilsOptions = class(TFrame)
@@ -23,6 +23,7 @@ type
     LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource;
     btnAnnuler: TButton;
     btnEnregistrer: TButton;
+    rBackground: TRectangle;
     procedure FrameClick(Sender: TObject);
     procedure btnEnregistrerClick(Sender: TObject);
     procedure btnAnnulerClick(Sender: TObject);

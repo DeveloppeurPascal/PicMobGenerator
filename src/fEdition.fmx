@@ -2,6 +2,14 @@ object frmEdition: TfrmEdition
   Size.Width = 932.000000000000000000
   Size.Height = 801.000000000000000000
   Size.PlatformDefault = False
+  object rBackground: TRectangle
+    Align = Contents
+    Fill.Color = claGhostwhite
+    Size.Width = 932.000000000000000000
+    Size.Height = 801.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
   object zoneEdition: TLayout
     Align = MostLeft
     Size.Width = 200.000000000000000000
@@ -293,8 +301,8 @@ object frmEdition: TfrmEdition
         Size.Height = 88.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
-        Viewport.Width = 164.000000000000000000
-        Viewport.Height = 88.000000000000000000
+        Viewport.Width = 160.000000000000000000
+        Viewport.Height = 84.000000000000000000
       end
       object lblProprietesCheminColor: TLabel
         Align = Top
