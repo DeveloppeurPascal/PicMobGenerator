@@ -12,3 +12,9 @@
 * added : boutons "Ouvrir un projet" / "Nouveau projet" sur la fenêtre de démarrage si aucun projet n'est ouvert (demande de l'équipe de validation d'Apple)
 * added : fond pour les écrans d'édition et d'options (qui étaient transparents et pouvaient se chevaucher)
 * added : a project version for Microsoft Store deployment
+
+* mise à jour de la version 1.1 mise en ligne sur [son dépôt GitHub](https://github.com/DeveloppeurPascal/PicMobGenerator) avec les codes sources
+* mise à jour de la version 1.1 publiée sur [Gumroad](https://boutique.olfsoftware.fr/l/picmobgenerator)
+* mise à jour de la version 1.1 publiée sur [Itch.io](https://gamolf.itch.io/pic-mob-generator)
+* version 1.1 soumise au [Mac App Store](https://apps.apple.com/us/app/pic-mob-generator/id1620588690)
+* mise à jour de la version 1.1 soumise au [Microsoft Store](https://www.microsoft.com/store/apps/9NV1HKNQNXCD)
