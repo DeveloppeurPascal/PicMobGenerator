@@ -123,13 +123,20 @@ object frmMain: TfrmMain
   end
   object AProposDialog1: TOlfAboutDialog
     Titre = 'Pic Mob Generator'
-    VersionDate = '20221013'
+    VersionDate = '20230303'
     MultiResBitmap = <
       item
       end>
     Images = DMImages.lstIconesPicMobGenerator
     ImageIndex = 0
-    URL = 'https://developpeur-pascal.fr/pic-mob-generator.html'
+    URL = 'https://picmobgenerator.olfsoftware.fr/'
+    Description.Strings = (
+      '(c) Patrick Pr'#233'martin / Olf Software 2022-2023'
+      ''
+      
+        'This program is a shareware. If you use it, please buy a license' +
+        ' or contribute on the project repository at https://github.com/D' +
+        'eveloppeurPascal/PicMobGenerator')
     onURLClick = AProposDialog1URLClick
     Langue = FR
     Left = 160
