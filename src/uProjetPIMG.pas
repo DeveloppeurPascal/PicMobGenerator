@@ -473,7 +473,12 @@ begin
       try
         ms.CopyFrom(s, TailleBitmap);
         ms.Position := 0;
-        FBitmap.LoadFromStream(ms);
+        try
+          FBitmap.LoadFromStream(ms);
+        except
+          // pas bien, je sais, mais pas trop le choix pour les Bitmap vides
+          FBitmap.Clear(talphacolors.Black);
+        end;
       finally
         ms.Free;
       end;
@@ -621,7 +626,7 @@ end;
 
 procedure TPIMGCouches.Initialise;
 begin
-  clear;
+  Clear;
 end;
 
 procedure TPIMGCouches.LoadFromStream(s: TStream);
