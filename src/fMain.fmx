@@ -123,6 +123,7 @@ object frmMain: TfrmMain
   end
   object AProposDialog1: TOlfAboutDialog
     Titre = 'Pic Mob Generator'
+    VersionNumero = '1.1'
     VersionDate = '20230303'
     MultiResBitmap = <
       item
