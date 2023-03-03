@@ -10,7 +10,8 @@ Les longueurs et nombres sont de type cardinal.
 
 Stockage sous forme de stream Delphi :
 - version du fichier : 5
-Couches (version 1) :
+
+Liste des calques/couches (version 1) :
 - nombre de couches
 - X blocs liés aux informations de chaque couche
 
