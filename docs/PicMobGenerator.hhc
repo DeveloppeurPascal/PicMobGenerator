@@ -1,0 +1,1354 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+    <OBJECT type="text/site properties">
+      <param name="Window Styles" value="0x800227">
+    </OBJECT>
+    <UL>      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="PicMobGenerator">
+          <param name="Local" value="PicMobGenerator.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fEdition">
+                  <param name="Local" value="fEdition.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmEdition">
+                                  <param name="Local" value="fEdition.TfrmEdition.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CoucheActiveALEcran">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CoucheActiveALEcran.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProjetOuvert">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ProjetOuvert.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ActiveCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ActiveCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfficheProprietes">
+                                                  <param name="Local" value="fEdition.TfrmEdition.AfficheProprietes.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AjouteCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.AjouteCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CalculeHauteurFlowLayout">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CalculeHauteurFlowLayout.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ClickSurCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ClickSurCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="GenereImage">
+                                                  <param name="Local" value="fEdition.TfrmEdition.GenereImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Hide">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Hide.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="InitialisePreviewImagesList">
+                                                  <param name="Local" value="fEdition.TfrmEdition.InitialisePreviewImagesList.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="InitialiseTaillesListe">
+                                                  <param name="Local" value="fEdition.TfrmEdition.InitialiseTaillesListe.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PreviewTailleChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.PreviewTailleChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddImageClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddImageClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddPathClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddPathClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddRectangleClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddRectangleClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddSVGClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddSVGClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnDescendreCoucheClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnDescendreCoucheClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnImageChargerClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnImageChargerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnImageEffacerClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnImageEffacerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnMonterCoucheClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnMonterCoucheClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnPreviewAucuneTailleClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnPreviewAucuneTailleClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnPreviewRefreshClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnPreviewRefreshClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnPreviewToutesTaillesClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnPreviewToutesTaillesClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnSVGChargerClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnSVGChargerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnSVGEffacerClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnSVGEffacerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnSupprimerCoucheClick">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnSupprimerCoucheClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cbCheminWrapModeChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cbCheminWrapModeChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cbImageWrapModeChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cbImageWrapModeChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cbSVGWrapModeChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cbSVGWrapModeChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbCheminColorChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbCheminColorChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbCheminFillColorChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbCheminFillColorChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbRectangleColorChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbRectangleColorChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbRectangleFillColorChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbRectangleFillColorChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getCoucheFromObject">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getCoucheFromObject.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getCurrent">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getCurrent.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getNewChemin">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getNewChemin.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getNewImage">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getNewImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getNewRectangle">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getNewRectangle.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getNewSVG">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getNewSVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getRectangleFromObject">
+                                                  <param name="Local" value="fEdition.TfrmEdition.getRectangleFromObject.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mmoCheminPathDataChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.mmoCheminPathDataChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeBasChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeBasChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeDroiteChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeDroiteChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeGaucheChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeGaucheChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeHauteChange">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeHauteChange.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreviewImagesListeResized">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreviewImagesListeResized.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreviewTaillesListeResized">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreviewTaillesListeResized.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminAddImage">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminAddImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminAddPath">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminAddPath.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminAddRectangle">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminAddRectangle.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminAddSVG">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminAddSVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminAfficherCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminAfficherCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminMasquerCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminMasquerCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminMonterCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminMonterCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CheminSupprimerCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.CheminSupprimerCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FlowLayoutBreak1">
+                                                  <param name="Local" value="fEdition.TfrmEdition.FlowLayoutBreak1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Layout1">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Layout1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Layout2">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Layout2.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Layout3">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Layout3.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Layout4">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Layout4.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Layout5">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Layout5.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OpenDialogImage">
+                                                  <param name="Local" value="fEdition.TfrmEdition.OpenDialogImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OpenDialogSVG">
+                                                  <param name="Local" value="fEdition.TfrmEdition.OpenDialogSVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProprietesChemin">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ProprietesChemin.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProprietesImage">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ProprietesImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProprietesMarges">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ProprietesMarges.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProprietesRectangle">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ProprietesRectangle.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProprietesSVG">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ProprietesSVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Splitter1">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Splitter1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Splitter2">
+                                                  <param name="Local" value="fEdition.TfrmEdition.Splitter2.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddImage">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddPath">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddPath.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddRectangle">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddRectangle.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAddSVG">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAddSVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAfficherMasquerCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnAfficherMasquerCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnDescendreCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnDescendreCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnEVGEffacer">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnEVGEffacer.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnImageCharger">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnImageCharger.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnImageEffacer">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnImageEffacer.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnMonterCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnMonterCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnPreviewAucuneTaille">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnPreviewAucuneTaille.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnPreviewRefresh">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnPreviewRefresh.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnPreviewToutesTailles">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnPreviewToutesTailles.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnSVGCharger">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnSVGCharger.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnSupprimerCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.btnSupprimerCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cbCheminWrapMode">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cbCheminWrapMode.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cbImageWrapMode">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cbImageWrapMode.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cbSVGWrapMode">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cbSVGWrapMode.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbCheminColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbCheminColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbCheminFillColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbCheminFillColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbRectangleColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbRectangleColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ccbRectangleFillColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.ccbRectangleFillColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="cheminDescendreCouche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.cheminDescendreCouche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="gplManipulationsCouches">
+                                                  <param name="Local" value="fEdition.TfrmEdition.gplManipulationsCouches.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="gplProprietesMarges">
+                                                  <param name="Local" value="fEdition.TfrmEdition.gplProprietesMarges.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesCheminColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesCheminColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesCheminFillColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesCheminFillColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesCheminPathData">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesCheminPathData.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesCheminWrapMode">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesCheminWrapMode.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesImageBitmap">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesImageBitmap.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesImageWrapMode">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesImageWrapMode.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesMarges">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesMarges.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesRectangleColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesRectangleColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesRectangleFillColor">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesRectangleFillColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesSVGLibelle">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesSVGLibelle.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lblProprietesSVGWrapMode">
+                                                  <param name="Local" value="fEdition.TfrmEdition.lblProprietesSVGWrapMode.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mmoCheminPathData">
+                                                  <param name="Local" value="fEdition.TfrmEdition.mmoCheminPathData.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeBas">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeBas.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeDroite">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeDroite.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeGauche">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeGauche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="nbMargeHaute">
+                                                  <param name="Local" value="fEdition.TfrmEdition.nbMargeHaute.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rBackground">
+                                                  <param name="Local" value="fEdition.TfrmEdition.rBackground.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zoneCouches">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zoneCouches.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zoneEdition">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zoneEdition.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreview">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreview.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreviewImages">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreviewImages.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreviewImagesListe">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreviewImagesListe.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreviewTailles">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreviewTailles.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zonePreviewTaillesListe">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zonePreviewTaillesListe.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zoneProprietes">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zoneProprietes.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="zoneToolbar">
+                                                  <param name="Local" value="fEdition.TfrmEdition.zoneToolbar.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fMain">
+                  <param name="Local" value="fMain.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmMain">
+                                  <param name="Local" value="fMain.TfrmMain.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AProposDialog1URLClick">
+                                                  <param name="Local" value="fMain.TfrmMain.AProposDialog1URLClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AfficheFenetre">
+                                                  <param name="Local" value="fMain.TfrmMain.AfficheFenetre.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormCloseQuery">
+                                                  <param name="Local" value="fMain.TfrmMain.FormCloseQuery.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormCreate">
+                                                  <param name="Local" value="fMain.TfrmMain.FormCreate.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FormDestroy">
+                                                  <param name="Local" value="fMain.TfrmMain.FormDestroy.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuAProposClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuAProposClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouveauCheminClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouveauCheminClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouveauRectangleClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouveauRectangleClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouveauSVGClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouveauSVGClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouvelleImageClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouvelleImageClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuEnregistrerClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuEnregistrerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportAllClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportAllClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportICNSClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportICNSClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportICOClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportICOClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportPNGClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportPNGClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuFermerProjetClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuFermerProjetClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuNouveauClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuNouveauClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuOptionsClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuOptionsClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuOuvrirClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuOuvrirClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuQuitterClick">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuQuitterClick.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="AProposDialog1">
+                                                  <param name="Local" value="fMain.TfrmMain.AProposDialog1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MainMenu1">
+                                                  <param name="Local" value="fMain.TfrmMain.MainMenu1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MenuHome">
+                                                  <param name="Local" value="fMain.TfrmMain.MenuHome.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OpenDialog1">
+                                                  <param name="Local" value="fMain.TfrmMain.OpenDialog1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OpenDialogExportImages">
+                                                  <param name="Local" value="fMain.TfrmMain.OpenDialogExportImages.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveDialog1">
+                                                  <param name="Local" value="fMain.TfrmMain.SaveDialog1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnProjectNew">
+                                                  <param name="Local" value="fMain.TfrmMain.btnProjectNew.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnProjectOpen">
+                                                  <param name="Local" value="fMain.TfrmMain.btnProjectOpen.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuAPropos">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuAPropos.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuAProposMac">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuAProposMac.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuAide">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuAide.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalques">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalques.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouveauChemin">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouveauChemin.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouveauRectangle">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouveauRectangle.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouveauSVG">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouveauSVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuCalquesNouvelleImage">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuCalquesNouvelleImage.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuEnregistrer">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuEnregistrer.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportAll">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportAll.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportICNS">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportICNS.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportICO">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportICO.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuExportPNG">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuExportPNG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuFermerProjet">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuFermerProjet.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuFichier">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuFichier.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuMacOS">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuMacOS.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuNouveau">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuNouveau.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuOptions">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuOptions.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuOutils">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuOutils.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuOuvrir">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuOuvrir.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuPreferences">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuPreferences.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuProjet">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuProjet.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="mnuQuitter">
+                                                  <param name="Local" value="fMain.TfrmMain.mnuQuitter.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="frmMain">
+                                  <param name="Local" value="fMain.frmMain.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fOutilsOptions">
+                  <param name="Local" value="fOutilsOptions.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TfrmOutilsOptions">
+                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FrameClick">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.FrameClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Hide">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.Hide.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAnnulerClick">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.btnAnnulerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnEnregistrerClick">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.btnEnregistrerClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="getCurrent">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.getCurrent.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BindSourceDB1">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.BindSourceDB1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BindingsList1">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.BindingsList1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LinkGridToDataSourceBindSourceDB1">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.LinkGridToDataSourceBindSourceDB1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ZoneFooter">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.ZoneFooter.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="bnTailles">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.bnTailles.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnAnnuler">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.btnAnnuler.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="btnEnregistrer">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.btnEnregistrer.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="gbTaillesIcones">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.gbTaillesIcones.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="rBackground">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.rBackground.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="sgTailles">
+                                                  <param name="Local" value="fOutilsOptions.TfrmOutilsOptions.sgTailles.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="uDM">
+                  <param name="Local" value="uDM.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Tdm">
+                                  <param name="Local" value="uDM.Tdm.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ChargerLesTailles">
+                                                  <param name="Local" value="uDM.Tdm.ChargerLesTailles.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="DataModuleCreate">
+                                                  <param name="Local" value="uDM.Tdm.DataModuleCreate.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="EnregistrerLesTailles">
+                                                  <param name="Local" value="uDM.Tdm.EnregistrerLesTailles.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FDStanStorageBinLink1">
+                                                  <param name="Local" value="uDM.Tdm.FDStanStorageBinLink1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="tabTaillesImages">
+                                                  <param name="Local" value="uDM.Tdm.tabTaillesImages.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="tabTaillesImagesHauteur">
+                                                  <param name="Local" value="uDM.Tdm.tabTaillesImagesHauteur.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="tabTaillesImagesLargeur">
+                                                  <param name="Local" value="uDM.Tdm.tabTaillesImagesLargeur.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="dm">
+                                  <param name="Local" value="uDM.dm.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="uDMImages">
+                  <param name="Local" value="uDMImages.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TDMImages">
+                                  <param name="Local" value="uDMImages.TDMImages.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lstIconesPicMobGenerator">
+                                                  <param name="Local" value="uDMImages.TDMImages.lstIconesPicMobGenerator.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="DMImages">
+                                  <param name="Local" value="uDMImages.DMImages.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="uProjetPIMG">
+                  <param name="Local" value="uProjetPIMG.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCouche">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MargeBasse">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.MargeBasse.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MargeDroite">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.MargeDroite.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MargeGauche">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.MargeGauche.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="MargeHaute">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.MargeHaute.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="TypeDeCouche">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.TypeDeCouche.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.LoadFromStream.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouche.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCoucheChemin">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Color">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.Color.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FillColor">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.FillColor.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="PathData">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.PathData.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="WrapMode">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.WrapMode.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.LoadFromStream.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheChemin.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCoucheImage">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.Create.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Destroy">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.Destroy.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Bitmap">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.Bitmap.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="WrapMode">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.WrapMode.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.LoadFromStream.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheImage.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCoucheRectangle">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheRectangle.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheRectangle.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Color">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheRectangle.Color.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FillColor">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheRectangle.FillColor.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheRectangle.LoadFromStream.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheRectangle.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCoucheSVG">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheSVG.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheSVG.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SVG">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheSVG.SVG.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="WrapMode">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheSVG.WrapMode.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheSVG.LoadFromStream.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheSVG.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCouches">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCouches.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Initialise">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouches.Initialise.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouches.LoadFromStream.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToStream">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGCouches.SaveToStream.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGProject">
+                                  <param name="Local" value="uProjetPIMG.TPIMGProject.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.Create.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Destroy">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.Destroy.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Couches">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.Couches.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Filename">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.Filename.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="hasChanged">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.hasChanged.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="FileExtension">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.FileExtension.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Initialise">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.Initialise.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LoadFromFile">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.LoadFromFile.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="SaveToFile">
+                                                  <param name="Local" value="uProjetPIMG.TPIMGProject.SaveToFile.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Enumerations">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TPIMGCoucheType">
+                                  <param name="Local" value="uProjetPIMG.TPIMGCoucheType.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Rien">
+                                          <param name="Local" value="uProjetPIMG.TPIMGCoucheType.Rien.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Chemin">
+                                          <param name="Local" value="uProjetPIMG.TPIMGCoucheType.Chemin.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Image">
+                                          <param name="Local" value="uProjetPIMG.TPIMGCoucheType.Image.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Rectangle">
+                                          <param name="Local" value="uProjetPIMG.TPIMGCoucheType.Rectangle.html">
+                                          </OBJECT>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="SVG">
+                                          <param name="Local" value="uProjetPIMG.TPIMGCoucheType.SVG.html">
+                                          </OBJECT>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Constants">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentFileVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentFileVersion.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentImageVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentImageVersion.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentLayerListVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentLayerListVersion.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentLayerVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentLayerVersion.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentPathVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentPathVersion.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentRectangleVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentRectangleVersion.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="CCurrentSVGVersion">
+                                  <param name="Local" value="uProjetPIMG.CCurrentSVGVersion.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+    </UL>
+</BODY>
+</HTML>
