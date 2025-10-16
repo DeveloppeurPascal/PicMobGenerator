@@ -253,8 +253,8 @@
     <PropertyGroup Condition="'$(Base_Linux64)'!=''">
         <DCC_UsePackage>DataSnapServer;fmx;emshosting;DbxCommonDriver;bindengine;FireDACCommonODBC;emsclient;FireDACCommonDriver;IndyProtocols;dbxcds;emsedge;inetdb;FireDACSqliteDriver;DbxClientDriver;FireDACASADriver;soapmidas;dbexpress;FireDACInfxDriver;inet;DataSnapCommon;AboutDialog-Delphi-ComponentFMXPkg;DzHTMLText_FMX;dbrtl;FireDACOracleDriver;CustomIPTransport;FireDACMSSQLDriver;DataSnapIndy10ServerTransport;DataSnapConnectors;FireDACMongoDBDriver;IndySystem;FireDACTDataDriver;bindcomp;FireDACCommon;DataSnapServerMidas;FireDACODBCDriver;emsserverresource;IndyCore;RESTBackendComponents;rtl;FireDACMySQLDriver;FireDACADSDriver;RESTComponents;dsnapxml;DataSnapClient;DataSnapFireDAC;emsclientfiredac;FireDACPgDriver;FireDAC;xmlrtl;dsnap;CloudService;FireDACDb2Driver;DataSnapNativeClient;DatasnapConnectorsFreePascal;soaprtl;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
         <Debugger_Launcher>/usr/bin/xterm -e &quot;%debuggee%&quot;</Debugger_Launcher>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <Manifest_File>(vide)</Manifest_File>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
@@ -267,8 +267,8 @@
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Debugger_Launcher>/usr/X11/bin/xterm -e &quot;%debuggee%&quot;</Debugger_Launcher>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <Manifest_File>(vide)</Manifest_File>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
@@ -284,8 +284,8 @@
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Debugger_Launcher>/usr/X11/bin/xterm -e &quot;%debuggee%&quot;</Debugger_Launcher>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <Manifest_File>(vide)</Manifest_File>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
@@ -303,10 +303,10 @@
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=0.0.0.0;InternalName=;LegalCopyright=2022-2023 Patrick Prémartin / Olf Software;LegalTrademarks=;OriginalFilename=;ProgramID=fr.olfsoftware.picmobgenerator;ProductName=$(MSBuildProjectName);ProductVersion=1.1;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
-        <UWP_DelphiLogo44>..\design\icones\picmobgenerator-44x44.png</UWP_DelphiLogo44>
-        <UWP_DelphiLogo150>..\design\icones\picmobgenerator-150x150.png</UWP_DelphiLogo150>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <UWP_DelphiLogo44>..\assets\icons\picmobgenerator-44x44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>..\assets\icons\picmobgenerator-150x150.png</UWP_DelphiLogo150>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
     </PropertyGroup>
@@ -318,10 +318,10 @@
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=0.0.0.0;InternalName=;LegalCopyright=2022-2023 Patrick Prémartin / Olf Software;LegalTrademarks=;OriginalFilename=;ProgramID=fr.olfsoftware.picmobgenerator;ProductName=$(MSBuildProjectName);ProductVersion=1.1;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
-        <UWP_DelphiLogo44>..\design\icones\picmobgenerator-44x44.png</UWP_DelphiLogo44>
-        <UWP_DelphiLogo150>..\design\icones\picmobgenerator-150x150.png</UWP_DelphiLogo150>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <UWP_DelphiLogo44>..\assets\icons\picmobgenerator-44x44.png</UWP_DelphiLogo44>
+        <UWP_DelphiLogo150>..\assets\icons\picmobgenerator-150x150.png</UWP_DelphiLogo150>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
     </PropertyGroup>
@@ -336,24 +336,24 @@
         <DCC_RangeChecking>true</DCC_RangeChecking>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Linux64)'!=''">
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_OSX64)'!=''">
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_OSXARM64)'!=''">
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <DCC_RemoteDebug>false</DCC_RemoteDebug>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
@@ -361,8 +361,8 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_MajorVer>0</VerInfo_MajorVer>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
@@ -373,13 +373,13 @@
         <VerInfo_Keys>FileVersion=1.0.0.0</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_Linux64)'!=''">
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_OSX64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <BT_BuildType>DeveloperID</BT_BuildType>
         <VerInfo_Build>12</VerInfo_Build>
@@ -388,8 +388,8 @@
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2_OSXARM64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <DCC_GenerateOSXUniversalBinaryFile>true</DCC_GenerateOSXUniversalBinaryFile>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
         <BT_BuildType>DeveloperID</BT_BuildType>
@@ -400,8 +400,8 @@
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <BT_BuildType>AppStore</BT_BuildType>
         <PF_UWPPublisher>CN=C9056E45-4697-4279-8E35-6C02570462A5</PF_UWPPublisher>
         <PF_UWPPackageName>OLFSOFTWARE.PicMobGenerator</PF_UWPPackageName>
@@ -415,8 +415,8 @@
     <PropertyGroup Condition="'$(Cfg_2_Win64)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <Icon_MainIcon>..\design\icones\picmobgenerator.ico</Icon_MainIcon>
-        <Icns_MainIcns>..\design\icones\picmobgenerator.icns</Icns_MainIcns>
+        <Icon_MainIcon>..\assets\icons\picmobgenerator.ico</Icon_MainIcon>
+        <Icns_MainIcns>..\assets\icons\picmobgenerator.icns</Icns_MainIcns>
         <BT_BuildType>AppStore</BT_BuildType>
         <PF_UWPPublisher>CN=C9056E45-4697-4279-8E35-6C02570462A5</PF_UWPPublisher>
         <PF_UWPPackageName>OLFSOFTWARE.PicMobGenerator</PF_UWPPackageName>
@@ -507,53 +507,53 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="$(BDS)\bin\delphi_PROJECTICNS.icns" Configuration="Debug" Class="ProjectOSXResource"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-150x150.png" Configuration="Debug" Class="UWP_DelphiLogo150"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-150x150.png" Configuration="Microsoft Store" Class="UWP_DelphiLogo150"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-150x150.png" Configuration="MicrosoftStore" Class="UWP_DelphiLogo150"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-150x150.png" Configuration="Release" Class="UWP_DelphiLogo150"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-150x150.png" Configuration="Release" Class="UWP_DelphiLogo150">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-150x150.png" Configuration="Debug" Class="UWP_DelphiLogo150"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-150x150.png" Configuration="Microsoft Store" Class="UWP_DelphiLogo150"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-150x150.png" Configuration="MicrosoftStore" Class="UWP_DelphiLogo150"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-150x150.png" Configuration="Release" Class="UWP_DelphiLogo150"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-150x150.png" Configuration="Release" Class="UWP_DelphiLogo150">
                     <Platform Name="Win32">
                         <RemoteName>Logo150x150.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-150x150.png" Configuration="Release" Class="UWP_DelphiLogo150">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-150x150.png" Configuration="Release" Class="UWP_DelphiLogo150">
                     <Platform Name="Win64">
                         <RemoteName>Logo150x150.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-44x44.png" Configuration="Debug" Class="UWP_DelphiLogo44"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-44x44.png" Configuration="Microsoft Store" Class="UWP_DelphiLogo44"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-44x44.png" Configuration="MicrosoftStore" Class="UWP_DelphiLogo44"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-44x44.png" Configuration="Release" Class="UWP_DelphiLogo44"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-44x44.png" Configuration="Release" Class="UWP_DelphiLogo44">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-44x44.png" Configuration="Debug" Class="UWP_DelphiLogo44"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-44x44.png" Configuration="Microsoft Store" Class="UWP_DelphiLogo44"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-44x44.png" Configuration="MicrosoftStore" Class="UWP_DelphiLogo44"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-44x44.png" Configuration="Release" Class="UWP_DelphiLogo44"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-44x44.png" Configuration="Release" Class="UWP_DelphiLogo44">
                     <Platform Name="Win32">
                         <RemoteName>Logo44x44.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\design\icones\picmobgenerator-44x44.png" Configuration="Release" Class="UWP_DelphiLogo44">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator-44x44.png" Configuration="Release" Class="UWP_DelphiLogo44">
                     <Platform Name="Win64">
                         <RemoteName>Logo44x44.png</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\design\icones\picmobgenerator.icns" Configuration="Debug" Class="ProjectOSXResource"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator.icns" Configuration="Debug" Class="ProjectOSXResource">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator.icns" Configuration="Debug" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator.icns" Configuration="Debug" Class="ProjectOSXResource">
                     <Platform Name="OSXARM64">
                         <RemoteName>PicMobGenerator.icns</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\design\icones\picmobgenerator.icns" Configuration="Release" Class="ProjectOSXResource"/>
-                <DeployFile LocalName="..\design\icones\picmobgenerator.icns" Configuration="Release" Class="ProjectOSXResource">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator.icns" Configuration="Release" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\assets\icons\picmobgenerator.icns" Configuration="Release" Class="ProjectOSXResource">
                     <Platform Name="OSX64">
                         <RemoteName>PicMobGenerator.icns</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="..\design\icones\picmobgenerator.icns" Configuration="Release" Class="ProjectOSXResource">
+                <DeployFile LocalName="..\assets\icons\picmobgenerator.icns" Configuration="Release" Class="ProjectOSXResource">
                     <Platform Name="OSXARM64">
                         <RemoteName>PicMobGenerator.icns</RemoteName>
                         <Overwrite>true</Overwrite>
